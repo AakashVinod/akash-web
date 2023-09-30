@@ -1,1 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Vinod - Professional Portfolio</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
 
+        /* Basic styling for the body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* About section styles */
+        #about {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Skills section styles */
+        #skills {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Experience section styles */
+        #experience {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Portfolio section styles */
+        #portfolio {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .portfolio-item {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+            padding: 20px;
+            width: calc(33.33% - 20px); /* Adjust the width as needed for your layout */
+            text-align: center;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+        }
+
+        /* Contact section styles */
+        #contact {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Dark theme */
+        body.dark-theme {
+            background-color: #111;
+            color: #fff;
+        }
+
+        header.dark-theme {
+            background-color: #222;
+        }
+
+        .dark-theme #portfolio {
+            background-color: #222;
+        }
+
+        .dark-theme .portfolio-item {
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Image styling */
+        .portfolio-item img {
+            border: 4px solid #fff;
+        }
+
+        /* Professional Styles */
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        /* Media Query for Responsive Layout */
+        @media screen and (max-width: 768px) {
+            .portfolio-item {
+                width: calc(50% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Akash Vinod</h1>
+        <p>Web Developer | Designer | Creator</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a professional web developer and designer with a passion for creating user-friendly and visually appealing websites. With several years of experience in the industry, I have a strong foundation in HTML, CSS, JavaScript, and other web technologies. My goal is to deliver high-quality, responsive web solutions that meet my clients' needs.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>UI/UX Design</li>
+            <li>PHP</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <h3>Web Developer - ABC Company</h3>
+        <p>Worked as a web developer at ABC Company for three years, where I was responsible for developing and maintaining the company's website. My role included collaborating with the design team, implementing new features, optimizing performance, and ensuring cross-browser compatibility.</p>
+        <h3>Freelance Web Designer</h3>
+        <p>As a freelance web designer, I have worked with various clients to create custom websites tailored to their unique needs. I have experience in creating visually appealing designs, optimizing user experiences, and delivering responsive websites that work seamlessly on all devices.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/400x300" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Description of Project 1 goes here.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/400x300" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of Project 2 goes here.</p>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/400x300" alt="Project 3">
+            <h3>Project 3</h3>
+            <p>Description of Project 3 goes here.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to collaborate
